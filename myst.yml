@@ -1,0 +1,25 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: d02db755-d724-4032-bea5-1d9fec5d4be2
+  title: Machine Learning in Neuroimaging
+  description: A hands-on tutorial on machine learning applied to functional MRI data using nilearn.
+  keywords: [machine learning, neuroimaging, fMRI, nilearn, functional connectivity]
+  authors:
+    - name: Jacob Vogel
+    - name: Hao-Ting Wang
+    - name: Yasmin Mzayek
+    - name: Himanshu Aggarwal
+    - name: Elizabeth Dupre
+    - name: Lune Bellec
+  github: https://github.com/school-brainhack/module_machine_learning_neuroimaging
+  toc:
+    - file: index.md
+    - file: functional-connectivity-with-nilearn.ipynb
+    - file: machine-learning-with-nilearn.ipynb
+    - file: exercises_adhd.ipynb
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
