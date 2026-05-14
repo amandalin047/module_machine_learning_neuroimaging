@@ -1,0 +1,10 @@
+name: ml_neuroimagerie
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - nilearn
+  - seaborn
+  - numpy
+  - matplotlib
+  - jupyter
